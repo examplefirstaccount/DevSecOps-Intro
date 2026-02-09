@@ -72,3 +72,49 @@
 1) **Missing Content-Security-Policy (CSP) header**: Absence of CSP allows unrestricted script execution, making the application highly vulnerable to Cross-Site Scripting (XSS) attacks and malicious code injection
 2) **Overly permissive CORS policy (Access-Control-Allow-Origin: \*)** — Allows any external website to make API requests to the application, enabling potential data theft and unauthorized API access from malicious sites
 3) **Missing HTTP Strict-Transport-Security (HSTS) header** — Without HSTS, users are vulnerable to man-in-the-middle attacks and SSL stripping, allowing attackers to downgrade connections to insecure HTTP
+
+# PR Template
+
+## Creation
+
+**Location:** `.github/pull_request_template.md` (committed to main branch)
+
+**Template Structure:**
+- **Goal** — Purpose and lab identification
+- **Changes** — Summary of modifications
+- **Testing** — Verification steps performed
+- **Artifacts & Screenshots** — Evidence and documentation
+- **Checklist** — Pre-submission validation (clear title, docs updated, no secrets)
+
+**Process:**
+1. Created `.github/pull_request_template.md` on main branch
+2. Committed with message: `docs: add PR template`
+3. Pushed to fork's main branch
+4. Created PR from `feature/lab1` to verify auto-fill functionality
+
+## Verification
+
+![PR Template Auto-fill](./screenshots/pr-template-verification.png)
+
+**Observation:** Template successfully auto-populated when opening PR from `feature/lab1` → course repository main branch. All sections (Goal, Changes, Testing, Artifacts & Screenshots) and checklist items appeared automatically in PR description.
+
+**Impact on Workflow:**
+PR templates standardize submission format across all labs, ensuring consistency and completeness. They serve as checklists to prevent missing required documentation, improve code review efficiency, and establish clear communication patterns in collaborative development environments.
+
+# GitHub Community
+
+## Actions Completed
+- Starred course repository: [inno-devops-labs/F25-DevSecOps-Intro](https://github.com/inno-devops-labs/F25-DevSecOps-Intro)
+- Starred [simple-container-com/api](https://github.com/simple-container-com/api) project
+- Followed Professor [@Cre-eD](https://github.com/Cre-eD)
+- Followed TA [@marat-biriushev](https://github.com/marat-biriushev)
+- Followed TA [@pierrepicaud](https://github.com/pierrepicaud)
+- Followed 3 classmates from the course: [@kolsmer](https://github.com/kolsmer), [@ArthurBabkin](https://github.com/ArthurBabkin), [@DmitriyProkopyev](https://github.com/DmitriyProkopyev)
+
+## Reflection
+
+**Why Starring Matters:**
+Starring repositories serves as both a personal bookmarking system and a community signal that encourages open-source maintainers while helping projects gain visibility through GitHub's discovery algorithms and search rankings.
+
+**Why Following Matters:**
+Following developers enables continuous learning from peers' contributions, facilitates professional networking beyond the classroom, and builds collaborative relationships that support both current team projects and long-term career growth in the software development community.
